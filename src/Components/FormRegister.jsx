@@ -28,10 +28,10 @@ return (
     <div>
       <label>Nombre</label>
       <input value={nombreUsuario} onChange={nombre} type="text"/><br /><br />
-      <label>Contraseña</label>
-      <input value={passwordUsuario} onChange={password} type="password" /><br /><br />
       <label>email</label>
-      <input value={emailUsuario} onChange={email} type="text"/><br /><br />
+      <input value={emailUsuario} onChange={email} type="email" /><br /><br />
+      <label>email</label>
+      <input value={passwordUsuario} onChange={password} type="password"/><br /><br />
       <button onClick={CrearRegistro} className='btnRegistrar'>Registrarse</button>
       <Link to={"/"}>Ir a Login</Link>
     </div>

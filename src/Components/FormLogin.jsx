@@ -50,7 +50,7 @@ return (
       <label >Contraseña</label>
       <input value={passwordUsuario} onChange={password} type="password" /><br /><br />
       <button onClick={Iniciar} className='btnIniciar'>Iniciar</button>
-      <p>¿Aún no tienes cuenta? <Link to = "/Register">Registrarse</Link></p>
+      <p>¿Ya tienes cuenta? <Link to = "/Register">Registrarse</Link></p>
     </div>
     );
   };
