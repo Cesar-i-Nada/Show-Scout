@@ -1,9 +1,6 @@
 async function getUsuarios() {
     try {
         
-
-
-
         const response = await fetch('http://localhost:3000/Usuarios', {
             method: 'GET',
             headers: {
