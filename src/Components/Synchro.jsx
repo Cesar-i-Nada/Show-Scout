@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Styles/Synchro.css'
 
 function Synchro() {
   return (
