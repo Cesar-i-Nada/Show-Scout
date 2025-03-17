@@ -1,0 +1,17 @@
+{
+    "Usuarios": [
+      {
+        "id": "edda",
+        "usuario": "a",
+        "password": "b",
+        "email": "c"
+      }
+    ],
+    "Tasks": [
+      {
+        "id": "92b8",
+        "Tarea": "estirar los bigotes"
+      }
+      
+    ]
+  }
