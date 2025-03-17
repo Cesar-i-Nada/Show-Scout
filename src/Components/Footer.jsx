@@ -5,7 +5,7 @@ import '../Styles/Footer.css'
 function Footer() {
   return (
     <div>
-      
+      <p>Contáctenos</p>
     </div>
   )
 }
