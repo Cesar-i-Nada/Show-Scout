@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/SynchroMapPage.css'
+import '../Styles/SynchroMap.css'
 import NavBar from '../Components/NavBar.jsx'
 import Footer from '../Components/Footer.jsx'
 

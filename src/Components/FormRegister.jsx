@@ -26,13 +26,13 @@ function email(evento) {
       
 return (
     <div>
-      <label>Nombre</label>
+      <label>nombre</label>
       <input value={nombreUsuario} onChange={nombre} type="text"/><br /><br />
       <label>email</label>
       <input value={emailUsuario} onChange={email} type="email" /><br /><br />
-      <label>email</label>
+      <label>password</label>
       <input value={passwordUsuario} onChange={password} type="password"/><br /><br />
-      <button onClick={CrearRegistro} className='btnRegistrar'>Registrarse</button>
+      <button onClick={CrearRegistro} className='btnRegistrar'>Registrarse</button><br /><br />
       <Link to={"/"}>Ir a Login</Link>
     </div>
   );
