@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import '../Styles/Register.css'
+import '../Styles/FormRegister.css'
 import llamadosUsuarios from '../Services/llamadosUsuarios'
 
 function FormRegister() {
@@ -25,13 +25,13 @@ function email(evento) {
 }
       
 return (
-    <div>
+    <div className='espRegister'>
       <label>nombre</label>
-      <input value={nombreUsuario} onChange={nombre} type="text"/><br /><br />
+      <input className='inp' value={nombreUsuario} placeholder="Nombre" required onChange={nombre} type="text"/><br /><br />
       <label>email</label>
-      <input value={emailUsuario} onChange={email} type="email" /><br /><br />
+      <input className='inp' value={emailUsuario} placeholder="Email" required onChange={email} type="email" /><br /><br />
       <label>password</label>
-      <input value={passwordUsuario} onChange={password} type="password"/><br /><br />
+      <input className='inp' value={passwordUsuario} placeholder="Password" required onChange={password} type="password"/><br /><br />
       <button onClick={CrearRegistro} className='btnRegistrar'>Registrarse</button><br /><br />
       <Link to={"/"}>Ir a Login</Link>
     </div>

@@ -1,0 +1,31 @@
+.espRegister{
+    margin-top: 50px;
+}
+
+.btnRegistrar {
+    background-color: #F24405;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 250px;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btnRegistrar:hover{
+    opacity: .75;
+}
+
+.inp {
+    border-radius:20px;
+}
+
+
+/*Paleta de colores usada*/
+
+.color1 {color: #1B6C8C;}
+.color2 {color: #BF8136;}
+.color3 {color: #F2E8E4;}
+.color4 {color: #260101;}
+.color5 {color: #BF5656;}
