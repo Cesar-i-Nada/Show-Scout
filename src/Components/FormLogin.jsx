@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import '../Styles/Login.css'
+import '../Styles/FormLogin.css'
 import { Link, useNavigate } from 'react-router-dom'
-import llamadosUsuarios from '../Services/llamadosUsuarios' 
+import llamadosUsuarios from '../Services/llamadosUsuarios'
+import CabraZacIzq from '../assets/img/CabraZacIzq.png'
+import Cabritas from '../assets/img/CabritasClr.gif'
 
 function FormLogin() {
 
@@ -41,17 +43,54 @@ function FormLogin() {
     }
    }
 
-
-
 return (
-  <div>
-      <label >Nombre</label>
-      <input value={nombreUsuario} onChange={nombre} type="text"/><br /><br />
-      <label >Contraseña</label>
-      <input value={passwordUsuario} onChange={password} type="password" /><br /><br />
-      <button onClick={Iniciar} className='btnIniciar'>Iniciar</button>
-      <p>¿Ya tienes cuenta? <Link to = "/Register">Registrarse</Link></p>
+<div>
+    
+    
+    <div className="container">
+        <div>
+            <img className='Cabritas' src="src/assets/img/CabritasClr.gif"/>   
+        </div>
+
+        <div>  
+          <div className='espLogin'>
+            <input className='inp' value={nombreUsuario} placeholder="Nombre" required onChange={nombre} type="text"/><br /><br />
+            <input className='inp' value={passwordUsuario} placeholder="Contraseña" required onChange={password} type="password" /><br /><br />
+            <button onClick={Iniciar} className='btnIniciar'>Iniciar</button>
+            <p>¿Ya tienes una cuenta? <Link to = "/Register">Ir a registrarse</Link></p>      
+          </div>
+        </div>
+
+      </div>
+
+
+        <div className="textDiv">
+          <h1>Herramientas para producir danza, teatro o circo.</h1>
+        </div>
+
+      <div className="container">
+
+        <div>
+            <h1>Mejora los procesos de producción </h1>
+            <p>Esta herramienta es útil y práctica para tus creaciones de arte escénico</p>
+        </div>
+
+        <div>
+        <img className='Cabritas' src="src/assets/img/CabritasClr.gif"/>   
+
+        </div>  
     </div>
+        
+    <div>
+        <div class="footer"><h3>Contáctenos</h3>
+        <div>
+            <h4>ShowScout@gmail.com</h4>
+            <a class="cierre" href="login/login.html">Cerrar sesión</a></div>
+        </div>
+    </div>
+
+</div>
+  
     );
   };
   

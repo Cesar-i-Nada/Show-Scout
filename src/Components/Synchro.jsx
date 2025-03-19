@@ -3,8 +3,8 @@ import '../Styles/Synchro.css'
 
 function Synchro() {
   return (
-    <div>Synchro
-        
+    <div>
+        <h1>Synchro</h1>
     </div>
     
   )

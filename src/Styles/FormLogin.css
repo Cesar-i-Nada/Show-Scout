@@ -1,0 +1,126 @@
+.espLogin{
+    margin-top: 50px;
+}
+
+.btnIniciar {
+    background-color: #F24405;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 250px;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btnIniciar:hover{
+    opacity: .75;
+}
+
+.inp {
+    border-radius:20px;
+}
+
+.Cabritas {
+    width: 300px;
+    height: 300px;
+}
+
+.textDiv {
+    text-align: center;
+    color: #F25C05;
+    font-size: 20px;
+}
+
+.CabraZacIzq {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 100px;
+  }
+  .container > div {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+    width: 480px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F25C05;
+  }
+
+/*Sección que conduce a la respuesta en meet*/
+  .transImg{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección que muestra la cola de consultas*/
+  .snacks{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: #faefd6;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para que el estudiante ingrese las consultas*/
+  .lasConsultas{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: white;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para recibir las respuesta del profesor*/
+  .lasRespuestas{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: white;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para el contacto del profesor*/
+.footer{
+    text-align: center;
+    font-size: 13px;
+  }
+  
+.cierre{
+  text-decoration: none;
+  color: #F25C05;
+  font-size: 20px;
+}
+
+
+
+
+/*Paleta de colores usada*/
+
+.color1 {color: #593C47;}
+.color2 {color: #F2E63D;}
+.color3 {color: #F2C53D;}
+.color4 {color: #F25C05;}
+.color5 {color: #F24405;}
+.color6 {color: #000000;}
+.color7 {color: #ffffff;}
+

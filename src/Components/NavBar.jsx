@@ -12,37 +12,25 @@ function Welcome() {
     return (
         <div>
           <div className="navbar">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <div className="dropdown">
-            <button className="dropbtn">Dropdown 
-            <i class="fa fa-caret-down"></i>
-            </button>
-              <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                <a href="#">Link 4</a>
-              </div>
-
-              <div className='transSelect'>
-                 {t("title", { name: "de César i Nada"})}
-                <button onClick={changeLanguage}>English</button>
-                <button onClick={changeLanguage}>Español</button>
-              </div>
-
-            </div> 
+            <a href="#home">Sobre nosotros</a>
+            <a href="#news">Productos</a>
+              <div className="dropdown">
+                <button className="dropbtn">Ayuda y soporte 
+                  <i className="fa fa-caret-down"></i>
+                </button>
+                  <div className="dropdown-content">
+                    <a href="#">Cursos</a>
+                    <a href="#">App</a>
+                    <a href="#">Podcast</a>
+                    <a href="#">Manual</a>
+                  </div>
+              </div> 
+                    <div className='transSelect'>
+                      {t("title", { name: "de César i Nada"})}
+                      <button className='transBtn' onClick={changeLanguage}>English</button>
+                      <button className='transBtn' onClick={changeLanguage}>Español</button>
+                    </div>
           </div>
-
-          <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li className='about'><a href="#about">About</a></li>
-</ul>
-
-
-
         </div>
     );
 }
