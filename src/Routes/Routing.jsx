@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from '../Pages/Login';
 import Register from '../Pages/Register';
-import SynchroMapPage from '../Pages/SynchroMapPage';
+import SynchroMap from '../Pages/SynchroMap';
+import CreateProfile from '../Components/CreateProfile';
 
 
 
@@ -15,7 +16,9 @@ function Routing() {
                 <Route path="/" element={<Login/>}/>
                 <Route path="/Login" element={<Login/>}/>
                 <Route path="/Register" element={<Register/>}/>
-                <Route path="/SynchroMapPage" element={<SynchroMapPage/>}/>      
+                <Route path="/SynchroMap" element={<SynchroMap/>}/>  
+                <Route path="/prueba" element={<CreateProfile/>}/>      
+    
       
         </Routes>
       </Router>

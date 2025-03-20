@@ -3,7 +3,7 @@ import '../Styles/SynchroMap.css'
 import NavBar from '../Components/NavBar.jsx'
 import Footer from '../Components/Footer.jsx'
 
-function SynchroMapPage() {
+function SynchroMap() {
   return (
     <div>
         <NavBar />
@@ -12,4 +12,4 @@ function SynchroMapPage() {
   )
 }
 
-export default SynchroMapPage
+export default SynchroMap
