@@ -1,12 +1,20 @@
 .espRegister{
-    margin-top: 50px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+
 }
 
 .btnRegistrar {
     background-color: #F24405;
     border-radius: 20px;
     cursor: pointer;
-    width: 250px;
+    width: 160px;
     padding: 5px;
     transition: all .3s ease-in-out;
     text-align: center;
@@ -19,13 +27,28 @@
 
 .inp {
     border-radius:20px;
+    text-align: center;
 }
 
+.titulo {
+    color: #F24405;
+}
+
+.Cabritas {
+    width: 450px;
+    height: 450px;
+}
 
 /*Paleta de colores usada*/
 
-.color1 {color: #1B6C8C;}
-.color2 {color: #BF8136;}
-.color3 {color: #F2E8E4;}
-.color4 {color: #260101;}
-.color5 {color: #BF5656;}
+.color1 {color: #000000;}
+.color2 {color: #ffffff;}
+.color3 {color: #feffdf;}
+.color4 {color: #ffde59;}
+.color5 {color: #ffbd59;}
+.color6 {color: #ff914d;}
+.color7 {color: #f24405;}
+.color8 {color: #ff5757;}
+.color9 {color: #f24405;}
+.color10 {color: #e7191f;}
+.color11 {color: #8c52ff;}

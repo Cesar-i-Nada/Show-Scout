@@ -23,13 +23,14 @@ async function getUsuarios() {
 
 //////////LLAMADO POST//////////
 
-async function postUsuarios(usuario,email,password) {
+async function postUsuarios(usuario,email,password,companhia) {
     try {
      
         const userData = { 
             usuario,
             email,
-            password
+            password,
+            companhia
             
         
         };
@@ -54,25 +55,15 @@ async function postUsuarios(usuario,email,password) {
 //////////////LLAMADO UPDATE/////////////
 
 
-async function updateUsuarios(usuario,email,password,id) 
+async function updateUsuarios(obj,id) 
 {
     try {
-     
-        const userData = { 
-            usuario,
-            email, 
-            password,
-            id
-        
-        };
-
-
         const response = await fetch("http://localhost:3000/Usuarios/"+id, {
-            method: 'PUT',
+            method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(userData)
+            body: JSON.stringify(obj)
         });
 
      

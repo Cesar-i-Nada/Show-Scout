@@ -1,13 +1,15 @@
 {
-    "Usuarios": [
-      {
-        
-      }
-    ],
-    "Totales": [
-      {
-        
-      }
-      
-    ]
-  }
+  "Usuarios": [
+    {
+      "id": "0118",
+      "usuario": "a",
+      "email": "c",
+      "password": "b"
+    }
+  ],
+  "Totales": [
+    {
+      "id": "6eb2"
+    }
+  ]
+}

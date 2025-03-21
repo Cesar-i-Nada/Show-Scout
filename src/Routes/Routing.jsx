@@ -4,6 +4,8 @@ import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 import SynchroMap from '../Pages/SynchroMap';
 import CreateProfile from '../Components/CreateProfile';
+import ProfileCreated from '../Pages/ProfileCreated';
+
 
 
 
@@ -17,9 +19,8 @@ function Routing() {
                 <Route path="/Login" element={<Login/>}/>
                 <Route path="/Register" element={<Register/>}/>
                 <Route path="/SynchroMap" element={<SynchroMap/>}/>  
-                <Route path="/prueba" element={<CreateProfile/>}/>      
-    
-      
+                <Route path="/prueba" element={<CreateProfile/>}/>
+                <Route path="/ProfileCreated" element={<ProfileCreated/>}/>      
         </Routes>
       </Router>
     </div>

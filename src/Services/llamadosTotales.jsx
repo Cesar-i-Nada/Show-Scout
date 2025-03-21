@@ -26,13 +26,15 @@ async function getTotales() {
 
 //////////LLAMADO POST//////////
 
-async function postTotales(usuario,email,password) {
+async function postTotales(usuario,email,password,Companhia,Piezas) {
   try {
    
       const userData = { 
           usuario,
           email,
-          password
+          password,
+          Companhia,
+          Piezas
           
       
       };
@@ -57,7 +59,7 @@ async function postTotales(usuario,email,password) {
 //////////////LLAMADO UPDATE/////////////
 
 
-async function updateTotales(usuario,email,password,id) 
+async function updateTotales(usuario,email,password,Companhia,Piezas,id) 
 {
   try {
    
@@ -65,6 +67,8 @@ async function updateTotales(usuario,email,password,id)
           usuario,
           email, 
           password,
+          Companhia,
+          Piezas,
           id
       
       };
