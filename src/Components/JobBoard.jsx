@@ -44,6 +44,8 @@ function JobBoard() {
             required onChange={direccion} type="text"/>
           <input className='inp' value={horarioEmpleo} placeholder="Ingresar horario" 
             required onChange={horario} type="text"/>
+            <input className='inp' value={descripcionEmpleo} placeholder="Ingresar descripción" 
+            required onChange={descripcion} type="text"/>
       </div>
 
     </div>

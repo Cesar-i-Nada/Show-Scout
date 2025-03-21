@@ -12,10 +12,10 @@ function Welcome() {
     return (
         <div>
           <div className="navbar">
-            <a href="#home">Sobre nosotros</a>
-            <a href="#news">Productos</a>
+            <a href="#home">Home</a>
+            <a href="#news">Synchro</a>
               <div className="dropdown">
-                <button className="dropbtn">Ayuda y soporte 
+                <button className="dropbtn">Bolsa de empleo 
                   <i className="fa fa-caret-down"></i>
                 </button>
                   <div className="dropdown-content">

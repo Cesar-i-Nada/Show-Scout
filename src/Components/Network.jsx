@@ -3,7 +3,9 @@ import '../Styles/Network.css'
 
 function Network() {
   return (
-    <div>Network</div>
+    <div>
+      <h2>Network</h2>
+    </div>
   )
 }
 

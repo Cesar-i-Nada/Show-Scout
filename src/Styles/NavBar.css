@@ -4,7 +4,7 @@
   
   .navbar {
     overflow: hidden;
-    background-color: #F2C53D;
+    background-color: #8c52ff;
   }
   
   .navbar a {
@@ -55,7 +55,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #F2E63D;
+    background-color: #ffde59;
   }
   
   .dropdown:hover .dropdown-content {
@@ -64,7 +64,7 @@
 
   .transSelect {
     float: right;
-    background-color: #F2C53D;
+    background-color: #8c52ff;
     margin-right: 1px;
     color: black;
     padding-left: 5px;
@@ -75,7 +75,7 @@
 
   .transBtn {
     background-color: #F24405;
-    color: white;
+    color: #ffffff;
     border-radius: 5px;
     padding: 5px;
     margin-left: 5px;

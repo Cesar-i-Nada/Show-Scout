@@ -3,7 +3,11 @@ import '../Styles/LightPlan.css'
 
 function LightPlan() {
   return (
-    <div>LightPlan</div>
+    <div>
+      <div>
+        <h3>LightPlan</h3>
+      </div>
+    </div>
   )
 }
 

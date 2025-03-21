@@ -4,6 +4,7 @@ import '../Styles/ProfileA.css'
 function ProfileA() {
   return (
     <div>
+      
       <div>
         <h3>img</h3>
       </div>
@@ -24,10 +25,6 @@ function ProfileA() {
       <div>
         <h3>Galería de piezas</h3>
       </div>
-
-
-
-
 
     </div>
   )
