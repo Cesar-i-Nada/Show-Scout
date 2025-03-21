@@ -3,7 +3,9 @@ import '../Styles/FirstDataPiece.css'
 
 function FinancialControl() {
   return (
-    <div>FinancialControl</div>
+    <div>
+      <h3>Control Financiero</h3>
+    </div>
   )
 }
 

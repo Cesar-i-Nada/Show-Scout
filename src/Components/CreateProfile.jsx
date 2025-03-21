@@ -5,9 +5,8 @@ import llamadosUsuarios from '../Services/llamadosUsuarios'
 
 function CreateProfile() {
   
-const [Img, setImg]=useState[null]
+const [Img, setImg]=useState(null)
 const [nombreUsuario, SetNombreUsuario] = useState("")
-const [nombreCompanhia, SetNombreCompanhia] = useState("")
 const [passwordUsuario, SetPasswordUsuario] = useState("")
 const [nombreCompanhia, SetNombreCompanhia] = useState("")
 
@@ -28,7 +27,7 @@ async function perfilUsuario() {
     usuario:nombreUsuario,
     img:Img,
     password:passwordUsuario,
-    companhia:,
+    companhia: nombreCompanhia,
     }
   await llamadosUsuarios.updateUsuarios(perfil,"0118")
 }
@@ -57,7 +56,7 @@ function password(evento) {
         <p>Información pública</p><br /><br />
 
           <p>Cargue la fotografía de su perfil</p>
-            <input type="file" onClick={subirImagen}/>
+            <input type="file" onChange={subirImagen}/>
             <input type="submit" />
           <input className='inp' value={nombreUsuario} placeholder="Ingresar nombre" 
             required onChange={nombre} type="text"/><br /><br />
@@ -69,7 +68,7 @@ function password(evento) {
       <div>
         <p>Información privada</p>
           <input className='inp' value={nombreUsuario} placeholder="nombre" 
-            required onChange={nombre} type="nombre"/><br /><br />
+            required onChange={nombre} type="text"/><br /><br />
           <input className='inp' value={passwordUsuario} placeholder="Password" 
             required onChange={password} type="password"/><br /><br />
       </div>
@@ -78,24 +77,10 @@ function password(evento) {
           <button onClick={perfilUsuario} className='btnCreateProfile'>Crear Perfil</button><br /><br />
       </div>
 
-      {/* <div> 
-        <div className="container">
-          <button value={CargarNombre} onClick={Cargar} >Cargar</button>
-        </div> 
-      </div> */}
-
-      {/* <div className='inpCreatePro'>
-        <ul>
-          {DatosProfile.map(Dato=>{
-            return <li key={dato.id}>{dato.dato} 
-            <button value={EliminarDato} onClick={()=>Eliminar(dato.id)}>Eliminar</button> 
-            <button value={EditarDato} onClick={()=>Editar(dato.id)}>Editar</button></li>
-            })}
-        </ul>
-      </div> */}
+      
 
     </div> 
   )
 }
-}
+
 export default CreateProfile

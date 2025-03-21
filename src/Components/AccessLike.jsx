@@ -5,7 +5,16 @@ import llamadosUsuarios from '../Services/llamadosUsuarios'
 
 function AccessLike() {
   return (
-    <div>AccessLike</div>
+    <div>
+      
+      <div>
+        <h3>Ingresar como</h3>
+        <p>Artista</p>
+        <p>Companía</p>
+        <p>Institución</p>
+      </div>
+
+    </div>
   )
 }
 

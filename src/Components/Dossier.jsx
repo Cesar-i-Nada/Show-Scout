@@ -3,7 +3,9 @@ import '../Styles/Dossier.css'
 
 function Dossier() {
   return (
-    <div>Dossier</div>
+    <div>
+      <h3>Dossier</h3>
+    </div>
   )
 }
 

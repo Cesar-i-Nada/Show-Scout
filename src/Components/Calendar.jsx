@@ -3,7 +3,9 @@ import '../Styles/Calendar.css'
 
 function Calendar() {
   return (
-    <div>Calendar</div>
+    <div>
+      <h3>Calendar</h3>
+    </div>
   )
 }
 

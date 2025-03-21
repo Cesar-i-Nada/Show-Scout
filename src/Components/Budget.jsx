@@ -3,7 +3,9 @@ import '../Styles/Budget.css'
 
 function Budget() {
   return (
-    <div>Budget</div>
+    <div>
+      <h3>Budget</h3>
+    </div>
   )
 }
 

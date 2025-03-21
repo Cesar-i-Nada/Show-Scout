@@ -38,7 +38,8 @@ function FormLogin() {
     if (registrado.length === 0) {
       console.log('Usuario no registrado');
     } else{
-      navigate('/Tareas')
+      navigate('/Piezas')
+
       
     }
    }
